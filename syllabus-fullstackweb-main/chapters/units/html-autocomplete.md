@@ -1,3 +1,0 @@
-# HTML AutoComplete
-
-## Extension: Emmet

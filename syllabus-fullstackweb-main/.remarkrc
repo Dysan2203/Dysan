@@ -1,9 +1,0 @@
-{
-  "presets": ["lint-recommended"],
-  "plugins": {
-    "lint": {
-      "list-item-indent": false,
-      "first-heading-level": false
-    }
-  }
-}

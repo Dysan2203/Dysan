@@ -1,4 +1,0 @@
-# HTML Metadata
-
-- Favicon
-- OpenGraph

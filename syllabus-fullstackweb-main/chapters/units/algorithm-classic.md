@@ -1,4 +1,0 @@
-# Algorithm Classic
-
-- Sorting
-- Searching
