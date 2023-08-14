@@ -1,0 +1,108 @@
+#container-grid{
+    display: grid;
+    grid-template-areas: 
+    "contact contact contact"
+    "heading logo logo"
+    "nav nav nav";
+    border: 0px solid black;
+    width: 1200px;
+    height: 500px;
+    margin-left: 130px;
+    background-color: #CB67FA;
+    background-size: cover;
+    position: relative;
+    top: 50px;
+    right: 79px;
+    position: fixed;
+
+}
+
+#container-grid .logo{
+margin-left: 0px;
+width: 100px ;
+grid-area: logo;
+
+}
+
+.logo img{
+position: relative;
+right: 80px;
+bottom: 30px;
+}
+
+#container-grid .heading{
+color: aliceblue;
+font-family: Inter;
+font-size: 10px;
+grid-area: heading;
+}
+
+.heading{
+position: relative;
+left: 150px;
+top: 70px;  
+}
+
+#container-grid .nav{
+text-align: center;
+background-color: #000000;
+padding-top: 15px;
+font-size: 20px;
+word-spacing: 70px;
+font-family: Inter;
+height: 40px;
+grid-area: nav;
+position: relative;
+bottom: 50px;
+}
+
+.nav a{
+color: rgb(253, 254, 255);
+text-decoration: none;
+padding-left: 50px;
+position: relative;
+top: 2px;
+}
+
+h3{
+color: #000000;
+font-family: Odor Mean Chey;
+font-size: 30px ;
+position: relative;
+bottom: 25px;
+}
+
+h2{
+font-family: Candal;
+color: #000000;
+font-size: 30px;
+position: relative;
+top: 30px;
+}
+
+h1{
+font-size: 50px;
+border: 0px solid black;
+font-family: Odor Mean Chey;
+}
+body{
+background-color: #AE0AD7;
+}
+
+#container-grid .contact{
+grid-area: contact;
+}
+
+.contact{
+position: relative;
+left: 1090px;
+width: 250px;
+top: 15px;
+word-spacing: 6px;
+
+}
+
+.nav .active{
+color: #faeb67;
+}
+
