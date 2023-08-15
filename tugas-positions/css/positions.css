@@ -1,0 +1,19 @@
+
+div.positions{
+    position: fixed;
+    font-size: 90px;
+    right: 200px;
+    bottom: 7px;
+    background-color: blue;
+}
+
+.tugas_hover{
+    font-size: 60px;
+    position: relative;
+    bottom: 50px;
+}
+
+a:hover{
+    color: red;
+    transition: 2s;
+}
