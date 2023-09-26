@@ -2,47 +2,206 @@
   <head>
     <title>Personal Web</title>
     <link rel="stylesheet" href="css/file.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   </head>
   <body>
-  <div id="header">
-    <div class="logo">
-      <img src="img/logo.png" alt="" width="">
-    </div>
-    <div class="nav">
-      <a href="#container" class="home">home</a>
-      <a href="#container2" class="skills">skills</a>
-      <a href="" class="about">about</a>
-      <a href="" class="kontak">contact</a>
-    </div>
-    <div class="contact">
-      <a href=""><img src="img/facebook 1.png" alt=""></a>
-      <a href="https://www.instagram.com/hdypmngks22/"><img src="img/instagram 1.png" alt=""></a>
-      <a href="https://twitter.com/HadyPamungkas"><img src="img/twitter 1.png" alt=""></a>
-      <a href="https://www.youtube.com/channel/UC3QOf9L-7f58kwqzR6I0Xxw"><img src="img/youtube 1.png" alt=""></a>
-    </div>
-  </div>  
-
-    <section>
-      <div id="container">
-        <div class="profile">
-          <img src="img/profile.png" alt="">
+  
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hady.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="home-hover nav-link active" aria-current="page" href="#container1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="about-hover nav-link" href="#container2">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="contact-hover nav-link" href="#container3">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="tugas-hover nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tugas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="heading">
-          <h1>Hi, <br>
-          My name is <br>
-        Hady satria pamungkas</h1>
-          <h2>u can call me "<span>Hady</span>"</h2>
+      </nav>
+
+
+      <section class="container1" id="container1">
+          <div class="foto">
+            <img src="img/pp.jpg" alt="">
+          </div>
+          <div class="text">
+
+            <h1>Hallo, I'm <span>Hady.</span></h1>
+            <h3>Backend Developer</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Optio vitae accusantium quasi officiis ut quod at adipisci cumque! Quia, eum!</p>
+          </div>
+        </div>
+      </section>
+
+
+     <!-- About 4 - Bootstrap Brain Component -->
+<section class="py-3 py-md-5 py-xl-8" id="container2">
+  <div class="about2 container">
+    <div class="row">
+      <div class="col-12 col-md-10 col-lg-8">
+        <h3 class="fs-5 mb-2 text-secondary text-uppercase">About</h3>
+        <h2 class="text2 display-5 mb-4">At our core, we prioritize pushing boundaries, embracing the unknown, and fostering a culture of continuous learning.</h2>
+        <button type="button" class="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5">Connect Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row gy-3 gy-md-4 gy-lg-0">
+      <div class="col-12 col-lg-6">
+        <div class="card bg-light p-3 m-0">
+          <div class="row gy-3 gy-md-0 align-items-md-center">
+            <div class="col-md-5">
+              <img src="img/pp.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body p-0">
+                <h2 class="card-title h4 mb-3">Why Choose Us?</h2>
+                <p class="card-text lead">With years of experience and deep industry knowledge, we have a proven track record of success and are pushing ourselves to stay ahead of the curve.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-
-    <section>
-      <div id="container2">
-        <div class="skills2">
-          <img src="img/skills.png" alt="">
+      <div class="col-12 col-lg-6">
+        <div class="card bg-light p-3 m-0">
+          <div class="row gy-3 gy-md-0 align-items-md-center">
+            <div class="col-md-5">
+              <img src="img/pp.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body p-0">
+                <h2 class="card-title h4 mb-3">Visionary Team</h2>
+                <p class="card-text lead">With a team of visionary engineers, developers, and creative minds, we embark on a journey to transform complex challenges into ingenious technological solutions.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="text_about"></div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+      <!--Section: Contact v.2-->
+<section class="container3 mb-4" id="container3">
+
+  <!--Section heading-->
+  <h2 class="h2-contact h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+  <!--Section description-->
+  <p class="contact-isi text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. <br>
+     Our team will come back to you within
+      a matter of hours to help you.</p>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="contact-edit col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="name" class="">Your name</label>
+                          <input type="text" id="name" name="name" class="form-control">
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="email" class="">Your email</label>
+                          <input type="text" id="email" name="email" class="form-control">
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <label for="subject" class="">Subject</label>
+                          <input type="text" id="subject" name="subject" class="form-control">
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                        <label for="message">Your message</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="lok-edit col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="bi bi-geo-alt-fill"></i>
+                  <p>Banten, Indonesia.</p>
+              </li>
+
+              <li><i class="bi bi-whatsapp"></i>
+                  <p>+62 895366772834</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>contact@mdbootstrap.com</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
+      
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
   </body>
 </html>

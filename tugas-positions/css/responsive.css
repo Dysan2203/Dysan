@@ -1,0 +1,58 @@
+.header{
+    width: 1400px;
+    height: 150px;
+    background-color: red;
+    font-size: 3em;
+}
+
+@media screen and (max-width: 414px) {
+  /*tampilan mobile */  
+    .header{
+        background-color: blue;
+    }
+    .menu-ya{
+        display: block;
+    }
+    .menu-tidak{
+        display: none;
+    }
+    .menu-dekstop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    /* tampilan ipad */  
+      .header{
+          background-color: rgb(239, 255, 21);
+    }
+      .menu-ya{
+          display: none;
+    }
+      .menu-tidak{
+          display: block;
+          position: fixed;
+          bottom: 0%;
+    }
+    .menu-dekstop{
+        display: none;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    /* tampilan dekstop */  
+      .header{
+          background-color: rgb(17, 254, 0);
+    }
+      .menu-ya{
+          display: none;
+    }
+      .menu-tidak{
+          display: none;
+          position: fixed;
+          bottom: 0%;
+    }
+    .menu-dekstop{
+        display: block;
+    }
+  }

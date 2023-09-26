@@ -1,122 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+
 *{
     scroll-behavior: smooth;
-}
-div{
-    border: 0px solid black;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+    border: none !important;
+    
 }
 
 body{
-    background: #EDDFB3;
-}
-
-#header{
-    display: grid;
-    grid-template-areas: 
-    "logo nav contact";
-    width: 100%;
-    height: 80px;
-    background: #87805E;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-#header .logo{
-    grid-area: logo;
-}
-
-.logo img{
-    border: 0px solid black;
-    border-radius: 150px;
-    width: 90px;
-    padding-bottom: 40px;
-    padding-left: 10px;
-    position: relative;
-    top: 10px;
-    left: 20px;
-}
-
-#header .nav{
-    grid-area: nav;
-    padding-right: 700px;
-    padding-top: 28px;
-}
-
-#header .contact{
-    grid-area: contact;
-    position: relative;
-    top: 20px;
-    word-spacing: 15px;
-}
-
-.contact img{
-    width: 36px;
-}
-
-#container{
-    display: grid;
-    grid-template-areas: 
-    "profile profile heading";
-    background: #EDDFB3;
-}
-
-#container .profile{
-    grid-area: profile;
-    position: relative;
-    top: 100px;
-    left: 150px;
-}
-
-#container .heading{
-    grid-area: heading;
-    font-size: 1.5em;
-    position: relative;
-    top: 250px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(0, 0, 0);
-    
-}
-
-h2{
-    font-size: 1em;
-    color: #070000;
-}
-
-.nav{
-    word-spacing: 20px;
-}
-
-.nav a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.nav .home{
-    color:#E0C097;
-}
-
-.nav .skills:hover{
-    color:#E0C097;
-    transition: 0.5s;
-}
-
-.nav .about:hover{
-    color:#E0C097;
-    transition: 0.5s;
-}
-
-.nav .kontak:hover{
-    color:#E0C097;
-    transition: 0.5s;
+    background-color: #DDE6ED !important;
+    max-width: 100% !important;
 }
 
 span{
-    color: #C84B31;
+    color: blue;
 }
 
-.skills2 img{
+section{
+    width: 100%;
+}
+
+/* NAVBAR */
+nav{
+    background-color: rgb(0, 157, 255) !important;
+}
+
+
+/* CONTENT */
+
+/* CONTAINER1 */
+.container1{
+    display: flex;
+    padding-top: 18rem;
+    padding-left: 10rem;
+}
+
+.foto{
+    width: 20%;
+    height: 17rem;
+}
+
+.foto img{
+    max-width: 150%;
+    border-radius: 250px;
     position: relative;
-    top: 900px;
+    bottom: 5rem;
+}
+
+.text{
+    padding-left: 10rem;
+}
+
+.home-hover:hover{
+    color: white !important;
+}
+
+.about-hover:hover{
+    color: white !important;
+}
+
+.contact-hover:hover{
+    color: white !important;
+}
+
+.tugas-hover:hover{
+    color: white !important;
+}
+
+
+/* CONTAINER 2 */
+.about2{
+    padding-top: 3rem !important;
+}
+
+.text2{
+    font-size: 1.8em !important;
+}
+
+
+/* container 3 */
+.container3{
+    padding-top: 7rem !important;
+    max-width: 75% !important;
+    margin-left: 10rem !important;
+    border-radius: 5rem !important;
+    border: 1px solid black !important;
+}
+
+
+/* CONTACT */
+.contact-edit{
+    position: relative;
+    left: 1.5rem !important;
+    bottom: 5rem !important;
     
+}
+
+.h2-contact{
+    position: relative;
+    bottom: 5rem !important;
+}
+
+.contact-isi{
+    position: relative;
+    bottom: 5rem !important;
+}
+
+.lok-edit{
+    position: relative;
+    bottom: 3rem !important;
+}
+
+@media screen and (max-width: 767px) {
+
+    section{
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 120px;
+        bottom: 9rem;
+    }
+
+    .foto{
+       position: relative;
+       left: 5rem;
+    }
+
+    .foto img{
+        max-width: 280%;
+        margin-left: 5rem;
+    }
+
+    .text{
+    }
+
+ 
+
+    .container3{
+       
+    }
 }
